@@ -1,0 +1,2 @@
+﻿LIBRARY "lib_cs"
+EXPORTS convert_cs

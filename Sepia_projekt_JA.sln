@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sepia_projekt_JA", "Sepia_projekt_JA\Sepia_projekt_JA.csproj", "{40DDE321-2606-4598-82B0-CA884CFD7F1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900} = {77B57B77-04EC-4FCA-8BDB-FF95B8D76900}
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5} = {F422B40C-38E7-483A-826D-5A51C0A5CEA5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sepia_ASM_lib", "Sepia_ASM_lib\Sepia_ASM_lib.vcxproj", "{F422B40C-38E7-483A-826D-5A51C0A5CEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sepia_CS_lib", "SEPIA_CS_lib\Sepia_CS_lib.csproj", "{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Debug|Any CPU.Build.0 = Debug|x64
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Debug|x64.ActiveCfg = Debug|x64
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Debug|x64.Build.0 = Debug|x64
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Debug|x86.ActiveCfg = Debug|x86
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Debug|x86.Build.0 = Debug|x86
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Release|Any CPU.ActiveCfg = Release|x64
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Release|Any CPU.Build.0 = Release|x64
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Release|x64.ActiveCfg = Release|x64
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Release|x64.Build.0 = Release|x64
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Release|x86.ActiveCfg = Release|x86
+		{40DDE321-2606-4598-82B0-CA884CFD7F1D}.Release|x86.Build.0 = Release|x86
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Debug|Any CPU.Build.0 = Debug|x64
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Debug|x64.ActiveCfg = Debug|x64
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Debug|x64.Build.0 = Debug|x64
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Debug|x86.ActiveCfg = Debug|Win32
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Debug|x86.Build.0 = Debug|Win32
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Release|Any CPU.ActiveCfg = Release|x64
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Release|Any CPU.Build.0 = Release|x64
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Release|x64.ActiveCfg = Release|x64
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Release|x64.Build.0 = Release|x64
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Release|x86.ActiveCfg = Release|Win32
+		{F422B40C-38E7-483A-826D-5A51C0A5CEA5}.Release|x86.Build.0 = Release|Win32
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Debug|Any CPU.Build.0 = Debug|x64
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Debug|x64.ActiveCfg = Debug|x64
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Debug|x64.Build.0 = Debug|x64
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Debug|x86.ActiveCfg = Debug|x86
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Debug|x86.Build.0 = Debug|x86
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Release|Any CPU.ActiveCfg = Release|x64
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Release|Any CPU.Build.0 = Release|x64
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Release|x64.ActiveCfg = Release|x64
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Release|x64.Build.0 = Release|x64
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Release|x86.ActiveCfg = Release|x86
+		{77B57B77-04EC-4FCA-8BDB-FF95B8D76900}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7887672-7929-43D5-A44D-5A3AF6AB6575}
+	EndGlobalSection
+EndGlobal
